@@ -1,6 +1,4 @@
-﻿
-
-namespace HotelReservas.Components
+﻿namespace HotelReservas.Components
 {
     public abstract class PackageComponent
     {

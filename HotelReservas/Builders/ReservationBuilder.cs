@@ -1,6 +1,5 @@
 ﻿using HotelReservas.Models;
 using HotelReservas.Components;
-using System.Collections.Generic;
 
 namespace HotelReservas.Builders
 {

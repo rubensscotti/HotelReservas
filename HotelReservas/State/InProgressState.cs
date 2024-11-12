@@ -1,9 +1,4 @@
 ﻿using HotelReservas.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HotelReservas.State
 {
@@ -11,8 +6,8 @@ namespace HotelReservas.State
     {
         public void Handle(Reservation reservation)
         {
-            Console.WriteLine("Reserva completa.");
-            reservation.State = new CompletedState();
+            Console.WriteLine("Reserva em andamento.");
+            reservation.State = new ConfirmedState();            
         }
     }
 }

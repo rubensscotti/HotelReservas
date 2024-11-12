@@ -1,6 +1,4 @@
-﻿using System;
-using HotelReservas.Models;
-using HotelReservas.Components;
+﻿using HotelReservas.Components;
 using HotelReservas.Builders;
 
 namespace HotelReservas
@@ -22,6 +20,7 @@ namespace HotelReservas
             reservation.Display();
 
             // Progride pelos estados
+            reservation.Progress();
             reservation.Progress();
             reservation.Progress();
             reservation.Progress();

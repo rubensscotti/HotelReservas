@@ -6,8 +6,8 @@ namespace HotelReservas.State
     {
         public void Handle(Reservation reservation)
         {
-            Console.WriteLine("Reserva confirmada.");
-            reservation.State = new ConfirmedState();
+            Console.WriteLine("Reserva pendente.");
+            reservation.State = new InProgressState();            
         }
     }
 }

@@ -1,6 +1,4 @@
-﻿
-
-namespace HotelReservas.Models
+﻿namespace HotelReservas.Models
 {
     public class Accommodation
     {
