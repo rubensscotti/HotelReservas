@@ -11,9 +11,6 @@
             Price = price;
         }
 
-        public virtual void Display()
-        {
-            Console.WriteLine($"{Name} - ${Price}");
-        }
+        public abstract void Display();
     }
 }
